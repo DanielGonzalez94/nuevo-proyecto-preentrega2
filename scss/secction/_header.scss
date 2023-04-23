@@ -1,0 +1,111 @@
+/*navbar style*/
+// BEGIN header
+.container-fluid {
+    flex-direction: column;
+
+    .typo-titulo {
+        font-family: $typo-titulo;
+        font-weight: 900;
+    }
+
+    .navbar-collapse {
+        flex-direction: column;
+
+        .nav-link {
+            font-weight: 700;
+            transition: .60s;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+    }
+}
+
+header.header {
+    nav {
+        &.navbar {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+}
+
+.container__banner {
+    display: flex;
+    background-image: url(../../resources/img/photo-1584204559709-ca7d413229eb.avif);
+    height: 70vh;
+    background-position: center;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+
+    .container__title {
+        padding: 2rem;
+        background-color: rgba(16, 22, 0, 0.664);
+        border-radius: 15px;
+        margin-right: 10%;
+
+        .banner__title {
+            padding-top: 2rem;
+            color: rgb(255, 255, 255);
+        }
+
+        .banner__subtitle {
+            padding: 2rem;
+            color: rgb(240, 240, 240);
+        }
+
+        a {
+            color: green;
+            text-decoration: none;
+            padding: 10px 8px;
+            border-radius: 10px;
+            background-color: red;
+
+            &:hover {
+                background-color: aqua;
+            }
+        }
+    }
+}
+
+// END header
+
+// BEGIN myCarousel
+div {
+    &#myCarousel {
+        background-color: black;
+    }
+
+    &.carousel {
+        margin-bottom: 4rem;
+    }
+
+    &.carousel {
+        background-color: black;
+        margin-bottom: 4rem;
+    }
+
+    .carousel-caption {
+        bottom: 3rem;
+        z-index: 10;
+    }
+
+    &.carousel-item {
+        height: 32rem;
+        background-color: #777;
+    }
+
+    .carousel-item>img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 32rem;
+    }
+}
+
+  
+// END myCarousel

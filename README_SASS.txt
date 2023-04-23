@@ -25,3 +25,8 @@
     b. npm run watch-css
 
 //FIN
+
+
+para que no se suba la carpeta node_modules corremos el comando, antes de crearlo se crea un archivo llamado:
+.gitignore
+git rm -r --cached nombre_archivo_o_carpeta_olvidada
